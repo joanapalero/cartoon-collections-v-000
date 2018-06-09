@@ -1,7 +1,7 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(list)
   i = 0
-  while i < dwarves.length
-    yield(dwarves[i])
+  while i < list.length
+    yield(list[i])
     i = i + 1
   end
   
