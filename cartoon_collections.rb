@@ -1,6 +1,11 @@
 def roll_call_dwarves(dwarves)
-  my_each(dwarves) |i|
-  puts i
+  i = 0
+  while i < dwarves.length
+    yield(dwarves[i])
+    i = i + 1
+  end
+  
+  dwarves
 end
 
 
