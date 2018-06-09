@@ -1,3 +1,4 @@
+list = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(list)
   i = 0
   while i < list.length
