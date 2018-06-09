@@ -1,11 +1,9 @@
-dwarves = []
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves# code an argument here
-  # Your code here
+  my_each(dwarves) |i|
+puts i
 end
-collection = [1, 2, 3, 4]
-my_each(collection) do |i|
-  puts i
-end
+
 
 def summon_captain_planet# code an argument here
   # Your code here
