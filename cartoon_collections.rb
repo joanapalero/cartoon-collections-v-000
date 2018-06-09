@@ -1,8 +1,5 @@
-def roll_call_dwarves(list)
-  i = 0
-  while i < list.length
-    yield(list[i])
-    i = i + 1
+def roll_call_dwarves(name_list)
+  printList = list.each_with_index.map {|
   end
   
   dwarves
