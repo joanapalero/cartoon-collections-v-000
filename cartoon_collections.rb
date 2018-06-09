@@ -1,7 +1,7 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves# code an argument here
   my_each(dwarves) |i|
-puts i
+  puts i
 end
 
 
