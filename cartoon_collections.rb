@@ -1,5 +1,7 @@
 def roll_call_dwarves(name_list)
-  printList = list.each_with_index.map {|
+  name_list.each_with_index do |name, index|
+    puts "#{index + 1} #{name}"
+  end
   end
   
   dwarves
